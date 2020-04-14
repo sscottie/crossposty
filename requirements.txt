@@ -1,0 +1,6 @@
+Flask
+Werkzeug
+requests
+tweepy
+instapy_cli
+vk_api

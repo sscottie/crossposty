@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Crossposty</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../static/assets/css/main.css" />
+		<link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../static/assets/css/component.css" />
+		<noscript><link rel="stylesheet" href="../static/assets/css/noscript.css" /></noscript>
+  		<script src="../static/assets/js/pace.min.js"></script>
+		<style>
+		.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+
+  z-index: 2000;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  width: 200px;
+  background: #fff;
+  border: 1px solid #e95045;
+
+  overflow: hidden;
+}
+
+.pace .pace-progress {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+
+  max-width: 200px;
+  position: fixed;
+  z-index: 2000;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  height: 100%;
+  width: 100%;
+  background: #e95045;
+}
+
+.pace.pace-inactive {
+  display: none;
+}
+</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-gem"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1 style="font-family: 'VT323', monospace;">CrossPosty</h1>
+								<p>Кросс-постинг в VK, Twitter <br />
+								и Instagramm </p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Начать</a></li>
+								<li><a href="#work">FAQ</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Загрузи фото</h2>
+								<div id="parent">
+									<div class="center">
+									<form method="POST" action="/loaded" enctype="multipart/form-data">
+										<input align="center" type="file" name="file-6[]" id="file-6" class="inputfile inputfile-5" 	data-multiple-caption="{count} files 				selected"  multiple hidden/>
+										<label for="file-6"><figure><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 	0 20 17"><path d="M10,6.536c-2.263,0-4.099,1.836-4.099,4.098S7.737,14.732,10,14.732s4.099-1.836,4.099-4.098S12.263,6.536,10,6.536M10,13.871c-1.784,0-3.235-1.453-3.235-3.237S8.216,7.399,10,7.399c1.784,0,3.235,1.452,3.235,3.235S11.784,13.871,10,13.871M17.118,5.672l-3.237,0.014L12.52,3.697c-0.082-0.105-0.209-0.168-0.343-0.168H7.824c-0.134,0-0.261,0.062-0.343,0.168L6.12,5.686H2.882c-0.951,0-1.726,0.748-1.726,1.699v7.362c0,0.951,0.774,1.725,1.726,1.725h14.236c0.951,0,1.726-0.773,1.726-1.725V7.195C18.844,6.244,18.069,5.672,17.118,5.672 M17.98,14.746c0,0.477-0.386,0.861-0.862,0.861H2.882c-0.477,0-0.863-0.385-0.863-0.861V7.384c0-0.477,0.386-0.85,0.863-0.85l3.451,0.014c0.134,0,0.261-0.062,0.343-0.168l1.361-1.989h3.926l1.361,1.989c0.082,0.105,0.209,0.168,0.343,0.168l3.451-0.014c0.477,0,0.862,0.184,0.862,0.661V14.746z"></path></svg></figure> 
+									<span></span></label>
+									<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="text" id="text" placeholder="Просто пост" maxlength="119" rows="6"></textarea>
+											</div>
+										</br>
+									</br>
+									<ul class="actions center">
+										<li><button type="submit" align="center" class="button primary">Подтвердить</button></li>
+									</ul>
+								</form>
+								</div>
+								</div>
+							</article>
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">Как я работаю?</h2> 
+								<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+								<p>Загрузи фотографию и текст и они отобразятся в твоих соцсетях</p>
+								<p>Instagramm, VK, Twitter</p>
+								<p>Токены и аккаунты соцсетей должны быть прописаны в config'ах</p>
+								<h2 class="major">Тестовое задание</h2>
+								<h2 style="font-family: 'VT323', monospace;">Future CTO School</h2>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Andrey Titov</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="../static/assets/js/jquery.min.js"></script>
+			<script src="../static/assets/js/browser.min.js"></script>
+			<script src="../static/assets/js/breakpoints.min.js"></script>
+			<script src="../static/assets/js/util.js"></script>
+			<script src="../static/assets/js/main.js"></script>
+			<script src="../static/assets/js/jquery.custom-file-input.js"></script>
+
+	</body>
+</html>
