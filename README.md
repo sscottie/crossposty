@@ -20,4 +20,9 @@
 
 ## Демо
 
+Ссылка на видео: https://drive.google.com/open?id=14gCk9NVHRLBIpm2bkGE4masyehdE5DQt
+
+![crossposty.gif](https://github.com/sscottie/crossposty/blob/master/crossposty.gif)
+
+
 
