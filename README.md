@@ -1,6 +1,6 @@
 # crossposty
 
-<a href="url"><img src="https://github.com/sscottie/crossposty/blob/master/static/images/bg.gif" align="right" height="128" width="256" ></a>
+<a href="url"><img src="https://github.com/sscottie/crossposty/blob/master/static/images/bg.gif" align="right" height="480" width="640" ></a>
 
 Тестовое задание для Future CTO School.
 
