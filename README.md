@@ -61,3 +61,7 @@ $ (venv) python3 main.py
 
 ## Как улучшить проект? Больше соц. сетей!
 
+### License
+MIT
+By Andrei Titov for Future CTO School
+
