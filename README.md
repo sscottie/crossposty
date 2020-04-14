@@ -12,7 +12,7 @@
 * Backend - Python (Microframework Flask); JS for working with GeoAPI
 * Frontend - JavaScript (Vanilla js and jQuery), CSS, HTML
 * UserInterface - Progressive WebApp
-* API - vk_api, tweepy
+* API - vk_api, tweepy. (vk_api и tweepy пакеты, представляющие собой кастомные оболочки над API Vkontakte и Twitter - устанавливаются с PyPi и гипотетически могут быть скомпрометированы злоумышленниками - будьте осторожны с вводом своих личных данных (логинов и паролей), используйте на свой страх и риск (в идеале, их требуется собирать из исходников)) 
 
 Входные данные: пользователь вводит текст и загружает картинку;
 
@@ -49,6 +49,7 @@ $ python3 -m venv venv
 $ source venv/bin/activate
 (Windows: venv\bin\activate.bat)
 ```
+* Ввести данные соце. сетей (аккаунты и пароли) в main.py
 
 * Установить зависимости и пакеты. Запустить приложение
 
