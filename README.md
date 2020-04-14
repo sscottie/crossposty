@@ -39,6 +39,25 @@
 * Склонировать репозиторий и перейти в скачанную директорию:
 
 ```sh
-git clone https://github.com/sscottie/crossposty.git
-cd weathernn
+$ git clone https://github.com/sscottie/crossposty.git
+$ cd crossposty
 ```
+* Установить виртуальное окружение (python или python3, в зависимости от настроек)
+
+```sh
+$ python3 -m venv venv
+$ source venv/bin/activate
+(Windows: venv\bin\activate.bat)
+```
+
+* Установить зависимости и пакеты. Запустить приложение
+
+```sh
+$ (venv) pip install -r requirements.txt
+$ (venv) python3 main.py
+```
+
+* Открыть localhost:8080
+
+## Как улучшить проект? Больше соц. сетей!
+
