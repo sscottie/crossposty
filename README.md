@@ -9,11 +9,13 @@
 
 ## Проектирование сервиса
 
-Backend - Python (Microframework Flask); JS for working with GeoAPI
-Frontend - JavaScript (Vanilla js and jQuery), CSS, HTML
-UserInterface - Progressive WebApp
-API - vk_api, tweepy
+* Backend - Python (Microframework Flask); JS for working with GeoAPI
+* Frontend - JavaScript (Vanilla js and jQuery), CSS, HTML
+* UserInterface - Progressive WebApp
+* API - vk_api, tweepy
+
 Входные данные: пользователь вводит текст и загружает картинку;
+
 Формат ответа: если не возникает ошибки, выводится сообщение, что команда выполнена, и проверить соц. сети - там Ваше фото и текст. Если произошла ошибка - Error, попробуйте снова.
 
 ## Демо
