@@ -38,7 +38,7 @@
 
 * Склонировать репозиторий и перейти в скачанную директорию:
 
-'''sh
-$ git clone https://github.com/sscottie/crossposty.git
-$ cd weathernn
+'''
+sh git clone https://github.com/sscottie/crossposty.git
+sh cd weathernn
 '''
