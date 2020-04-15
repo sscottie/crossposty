@@ -9,7 +9,7 @@
 
 ## Проектирование сервиса
 
-* Backend - Python (Microframework Flask); JS for working with GeoAPI
+* Backend - Python (Microframework Flask);
 * Frontend - JavaScript (Vanilla js and jQuery), CSS, HTML
 * UserInterface - Progressive WebApp
 * API - vk_api, tweepy. (vk_api и tweepy пакеты, представляющие собой кастомные оболочки над API Vkontakte и Twitter - устанавливаются с PyPi и гипотетически могут быть скомпрометированы злоумышленниками - будьте осторожны с вводом своих личных данных (логинов и паролей), используйте на свой страх и риск (в идеале, их требуется собирать из исходников)) 
