@@ -60,8 +60,6 @@ $ (venv) python3 main.py
 
 * Открыть localhost:8080
 
-## Как улучшить проект? Больше соц. сетей!
-
 ### License
 MIT
 
